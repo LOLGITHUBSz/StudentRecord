@@ -6,7 +6,7 @@ public class StudentRecord
    //Constructs a StudentRecord object with an array of scores.
    public StudentRecord(int [] s)
    {
-      scores = s;
+      scores = s; 
    }
    
    /** returns the average (arithmetic mean) of the values in scores
