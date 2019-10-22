@@ -13,6 +13,17 @@ public class StudentRecordTester
         int[] b={20,50,50,53,80};
         int[] c={20,50,50,80};
         
+        StudentRecord[] student= new StudentRecord[] 
+        student[0] = new Studentrecord(a);
+        student[1] = new Studentrecord(b);
+        student[2] = new Studentrecord(c);
+        
+        StudentRecord[] Students = new student [1];
+        Students[0]. average (1,3);
+        StudentRecord[] Students = new student [2];
+        Students[1]. average(1,4);
+        
+        
         StudentRecord[] students;
     }
     
