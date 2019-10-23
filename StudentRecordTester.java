@@ -13,17 +13,15 @@ public class StudentRecordTester
         int[] b={20,50,50,53,80};
         int[] c={20,50,50,80};
         
-        StudentRecord[] student= new StudentRecord[] 
-        student[0] = new Studentrecord(a);
-        student[1] = new Studentrecord(b);
-        student[2] = new Studentrecord(c);
+        StudentRecord[] student= new StudentRecord[3];
+        student[0] = new StudentRecord(a);
+        student[1] = new StudentRecord(b);
+        student[2] = new StudentRecord(c);
         
-        StudentRecord[] Students = new student [1];
-        Students[0]. average (1,3);
-        StudentRecord[] Students = new student [2];
-        Students[1]. average(1,4);
-        
-        
+        System.out.println(student[0]. average(0,4));
+        System.out.println(student[1]. average(2,4));
+        System.out.println(student[2]. average(2,3));
+       
         StudentRecord[] students;
     }
     
